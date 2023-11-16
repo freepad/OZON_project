@@ -1,0 +1,33 @@
+{
+  "name": "OZON_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:dev": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "codegen": "playwright codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalieBlade/OZON_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalieBlade/OZON_project/issues"
+  },
+  "homepage": "https://github.com/NatalieBlade/OZON_project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.7",
+    "allure-playwright": "^2.9.2",
+    "jest-allure": "^0.1.3"
+  },
+  "dependencies": {
+    "playwright": "^1.39.0",
+    "typescript": "^5.2.2"
+  }
+}
