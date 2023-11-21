@@ -207,3 +207,4 @@ export class MainPage {
         await expect(this._touristsField.locator('input')).toHaveValue('1 турист');
     }
 }
+ 
